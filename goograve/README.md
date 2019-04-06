@@ -16,8 +16,4 @@ Modified [graveyard.json](graveyard.json) as I could not figure out how to pass 
 
 `jinjajson` just pushes a "json.load" python data structure through a [jinja template](goograve2gchart_tline.j2)
 
-`jinjajson goograve2gchart_tline.j2 graveyard.json > goograve.html` for the final result [goograve.html]( http://htmlpreview.github.com/?goograve.html)
-
-# Future
-
-So much more data analysis to do on the Google garden...
+`jinjajson goograve2gchart_tline.j2 graveyard.json > goograve.html` for the final result [goograve.html](https://kevbroch.github.io/goograve/)
