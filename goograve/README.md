@@ -4,8 +4,8 @@ Data Viz / Analysis of Google's Garden.  (well at least the part that didn't mak
 
 Multiple efforts documenting the death of a crop:
 
-* [https://killedbygoogle.com/]() (my json src)
-* [https://gcemetery.co/]()
+* [https://killedbygoogle.com/](https://killedbygoogle.com/) (my json src)
+* [https://gcemetery.co/](https://gcemetery.co/)
 
 # Process
 
