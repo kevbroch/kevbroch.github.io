@@ -1,4 +1,4 @@
-# Overview
+# Google Graveyard
 
 Data Viz / Analysis of Google's Garden.  (well at least the part that didn't make it)
 
@@ -7,7 +7,7 @@ Multiple efforts documenting the death of a crop:
 * [https://killedbygoogle.com/](https://killedbygoogle.com/) (my json src)
 * [https://gcemetery.co/](https://gcemetery.co/)
 
-# Process
+## Process
 
 Took [Google Charts simple example](https://developers.google.com/chart/interactive/docs/gallery/timeline#a-simple-example)
 to create jinja template.
