@@ -1,3 +1,9 @@
+import json
+import urllib.request
+
+from jinja2 import Template
+
+tmpl = """
 <html>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -27,3 +33,11 @@
     <div id="timeline" style="height: 100%;"></div>
   </body>
 </html>
+"""
+
+with urllib.request.urlopen(
+    "https://raw.githubusercontent.com/codyogden/killedbygoogle/main/graveyard.json"
+) as url:
+    data = json.loads(url.read().decode())
+t = Template(tmpl, trim_blocks=True, lstrip_blocks=True)
+print(t.render(products=data))
